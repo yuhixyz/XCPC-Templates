@@ -1,0 +1,7 @@
+*.exe
+*.aux
+*.log
+*.out
+*.gz
+*.toc
+*.bat
