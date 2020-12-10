@@ -1,7 +1,8 @@
 %!TEX program=xelatex
 \documentclass[10pt,a4paper]{article}
 %\usepackage{zh_CN-Adobefonts_external}
-\usepackage{xeCJK}
+%\usepackage{xeCJK}
+\usepackage{ctex}
 \usepackage{amsmath, amsthm}
 \usepackage{listings,xcolor}
 \usepackage{geometry} % 设置页边距
@@ -16,6 +17,7 @@
 
 \setsansfont{Consolas} % 设置英文字体
 \setmonofont[Mapping={}]{Courier New} % 英文引号之类的正常显示，相当于设置英文字体
+\setlength{\parindent}{0pt} % 取消文章所有的首行缩进
 
 \linespread{1.2}
 
@@ -87,7 +89,31 @@
 \subsection{树状数组}
 \lstinputlisting{数据结构/树状数组.cpp}
 \subsection{线段树}
-\lstinputlisting{数据结构/线段树.cpp}
+\subsubsection{HDU1540}
+\begin{spacing}{1.5}
+\input{数据结构/线段树/HDU1540.tex}
+\end{spacing}
+\lstinputlisting{数据结构/线段树/HDU1540.cpp}
+\subsubsection{HDU4578}
+\begin{spacing}{1.5}
+\input{数据结构/线段树/HDU4578.tex}
+\end{spacing}
+\lstinputlisting{数据结构/线段树/HDU4578.cpp}
+\subsubsection{HDU4553}
+\begin{spacing}{1.5}
+\input{数据结构/线段树/HDU4553.tex}
+\end{spacing}
+\lstinputlisting{数据结构/线段树/HDU4553.cpp}
+\subsubsection{HDU1542}
+\begin{spacing}{1.5}
+\input{数据结构/线段树/HDU1542.tex}
+\end{spacing}
+\lstinputlisting{数据结构/线段树/HDU1542.cpp}
+\subsubsection{HDU1255}
+\begin{spacing}{1.5}
+\input{数据结构/线段树/HDU1255.tex}
+\end{spacing}
+\lstinputlisting{数据结构/线段树/HDU1255.cpp}
 \subsection{ST表}
 \lstinputlisting{数据结构/RMQ.cpp}
 \subsection{Splay}

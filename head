@@ -1,7 +1,8 @@
 %!TEX program=xelatex
 \documentclass[10pt,a4paper]{article}
 %\usepackage{zh_CN-Adobefonts_external}
-\usepackage{xeCJK}
+%\usepackage{xeCJK}
+\usepackage{ctex}
 \usepackage{amsmath, amsthm}
 \usepackage{listings,xcolor}
 \usepackage{geometry} % 设置页边距
@@ -16,6 +17,7 @@
 
 \setsansfont{Consolas} % 设置英文字体
 \setmonofont[Mapping={}]{Courier New} % 英文引号之类的正常显示，相当于设置英文字体
+\setlength{\parindent}{0pt} % 取消文章所有的首行缩进
 
 \linespread{1.2}
 
