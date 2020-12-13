@@ -11,7 +11,7 @@
 \usepackage[colorlinks]{hyperref}
 \usepackage{setspace}
 \usepackage{fancyhdr} % 自定义页眉页脚
-\usepackage[toc]{multitoc} % 多栏目录，默认两栏
+%\usepackage[toc]{multitoc} % 多栏目录，默认两栏
 
 \hypersetup{linkcolor=black} % 设置目录为黑色
 
@@ -90,33 +90,35 @@
 \subsection{树状数组}
 \lstinputlisting{数据结构/树状数组.cpp}
 \subsection{线段树}
-\subsubsection{HDU1540}
+\subsubsection{HDU1540（lmax,rmax）}
 \begin{spacing}{1.5}
 \input{数据结构/线段树/HDU1540.tex}
 \end{spacing}
 \lstinputlisting{数据结构/线段树/HDU1540.cpp}
-\subsubsection{HDU4578}
+\subsubsection{HDU4578（修改：区间加/乘/置数，查询区间和/平方和/立方和）}
 \begin{spacing}{1.5}
 \input{数据结构/线段树/HDU4578.tex}
 \end{spacing}
 \lstinputlisting{数据结构/线段树/HDU4578.cpp}
-\subsubsection{HDU4553}
+\subsubsection{HDU4553（维护两棵有优先关系的线段树）}
 \begin{spacing}{1.5}
 \input{数据结构/线段树/HDU4553.tex}
 \end{spacing}
 \lstinputlisting{数据结构/线段树/HDU4553.cpp}
-\subsubsection{HDU1542}
+\subsubsection{HDU1542（扫描线求矩形面积并）}
 \begin{spacing}{1.5}
 \input{数据结构/线段树/HDU1542.tex}
 \end{spacing}
 \lstinputlisting{数据结构/线段树/HDU1542.cpp}
-\subsubsection{HDU1255}
+\subsubsection{HDU1255（矩形2次覆盖面积并）}
 \begin{spacing}{1.5}
 \input{数据结构/线段树/HDU1255.tex}
 \end{spacing}
 \lstinputlisting{数据结构/线段树/HDU1255.cpp}
+\subsection{分块}
+\lstinputlisting{数据结构/分块.cpp}
 \subsection{ST表}
-\lstinputlisting{数据结构/RMQ.cpp}
+\lstinputlisting{数据结构/ST表.cpp}
 \subsection{Splay}
 \lstinputlisting{数据结构/Splay.cpp}
 \subsection{Treap}
@@ -132,6 +134,30 @@
 \input{数据结构/树链剖分/边权.tex}
 \end{spacing}
 \lstinputlisting{数据结构/树链剖分/边权.cpp}
+\subsection{莫队}
+\subsubsection{离线询问排序方式}
+\begin{spacing}{1.5}
+\input{数据结构/莫队/离线询问排序方式.tex}
+\end{spacing}
+\subsubsection{洛谷P4396（基础莫队）}
+\begin{spacing}{1.5}
+\input{数据结构/莫队/洛谷P4396-[AHOI2013]作业（基础莫队）.tex}
+\end{spacing}
+\lstinputlisting{数据结构/莫队/洛谷P4396-[AHOI2013]作业（基础莫队）.cpp}
+\subsubsection{AcWing2521（带修莫队）}
+\begin{spacing}{1.5}
+\input{数据结构/莫队/AcWing2521-数颜色（带修莫队）.tex}
+\end{spacing}
+\lstinputlisting{数据结构/莫队/AcWing2521-数颜色（带修莫队）.cpp}
+\subsubsection{AcWing2523（回滚莫队）}
+\begin{spacing}{1.5}
+\input{数据结构/莫队/AcWing2523-历史研究（回滚莫队）.tex}
+\end{spacing}
+\lstinputlisting{数据结构/莫队/AcWing2523-历史研究（回滚莫队）.cpp}
+\subsubsection{树上莫队}
+\begin{spacing}{1.5}
+\input{数据结构/莫队/树上莫队.tex}
+\end{spacing}
 \section{图论}
 \subsection{最短路}
 \subsection{最小生成树}

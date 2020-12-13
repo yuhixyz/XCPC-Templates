@@ -1,6 +1,8 @@
 <树状数组> <树状数组.cpp>
 <线段树> <> <> <线段树>
-<ST表> <RMQ.cpp>
+<分块> <分块.cpp>
+<ST表> <ST表.cpp>
 <Splay> <Splay.cpp>
 <Treap> <Treap.cpp>
 <树链剖分> <> <> <树链剖分>
+<莫队> <> <> <莫队>

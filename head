@@ -11,7 +11,7 @@
 \usepackage[colorlinks]{hyperref}
 \usepackage{setspace}
 \usepackage{fancyhdr} % 自定义页眉页脚
-\usepackage[toc]{multitoc} % 多栏目录，默认两栏
+%\usepackage[toc]{multitoc} % 多栏目录，默认两栏
 
 \hypersetup{linkcolor=black} % 设置目录为黑色
 

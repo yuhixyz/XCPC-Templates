@@ -1,0 +1,33 @@
+一般莫队排序方式：以 belong[l] 为第一关键字， r 为第二关键字升序排序。
+
+\begin{lstlisting}
+struct Query {
+    int id, l, r;
+    bool operator < (const Query &W) const {
+        if (belong[l] != belong[W.l]) return belong[l] < belong[W.l];
+        return r < W.r;
+    }
+} q[M];
+// 奇偶优化
+struct Query {
+	int id, l, r;
+	bool operator < (const Query &W) const {
+        if (belong[l] != belong[W.l]) return belong[l] < belong[W.l];
+        return belong[l] & 1 ? r < W.r : r > W.r;  
+	}
+} q[N];
+\end{lstlisting}
+    
+
+带修莫队排序方式：以 belong[l] 为第一关键字， belong[r] 为第二关键字， ts 为第三关键字升序排序。
+
+\begin{lstlisting}
+struct Query {
+    int id, l, r, ts; // id表示当前询问的编号，ts表示当前询问处于第ts次操作后，第ts+1操作前
+    bool operator < (const Query &W) const {
+        if (belong[l] != belong[W.l]) return belong[l] < belong[W.l];
+        if (belong[r] != belong[W.r]) return belong[r] < belong[W.r];
+        return ts < W.ts;
+    }
+} q[N];
+\end{lstlisting}
