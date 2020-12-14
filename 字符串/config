@@ -1,4 +1,3 @@
 <Manacher> <Manacher.cpp>
 <KMP> <KMP.cpp>
-<AC自动机> <> <> <AC自动机>
-<后缀数组> <> <> <后缀数组>
+<AC自动机> <AC自动机.cpp>
