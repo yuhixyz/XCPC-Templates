@@ -1,6 +1,6 @@
-<HDU1540（lmax, rmax）> <HDU1540.cpp> <HDU1540.tex>
-<HDU4578（区间加/乘/置数，区间和/平方和/立方和）> <HDU4578.cpp> <HDU4578.tex>
-<HDU4553（维护两棵有优先关系的线段树）> <HDU4553.cpp> <HDU4553.tex>
+<HDU1540（维护lmax, rmax）> <HDU1540.cpp> <HDU1540.tex>
+<HDU4578（维护多组懒标记）> <HDU4578.cpp> <HDU4578.tex>
+<HDU4553（维护两棵有线段树）> <HDU4553.cpp> <HDU4553.tex>
 <HDU1542（扫描线求矩形面积并）> <HDU1542.cpp> <HDU1542.tex>
 <HDU1255（矩形2次覆盖面积并）> <HDU1255.cpp> <HDU1255.tex>
 
