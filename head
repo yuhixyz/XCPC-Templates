@@ -40,7 +40,7 @@
 \renewcommand{\headrulewidth}{0.4pt} 
 \renewcommand{\footrulewidth}{0.4pt}
 %\geometry{left=2.5cm,right=3cm,top=2.5cm,bottom=2.5cm} % 页边距
-\geometry{left=2.5cm,right=2.3cm,top=2.5cm,bottom=2.5cm}
+\geometry{left=2.85cm,right=2.85cm,top=2.52cm,bottom=2.52cm}
 \setlength{\columnsep}{30pt}
 
 \makeatletter

@@ -7,19 +7,10 @@
 1. 每个数要么选要么不选：$0 \le s[i] - s[i-1] \le 1, i \in [1,50001]$
 
 2. 区间限制：$s[b] - s[a - 1] \ge c$
-
-即
-
-\begin{equation}
-s[i] \ge s[i-1], i \in [1,50001]
-\end{equation}
-
-\begin{equation}
-s[i-1] \ge s[i] - 1, i \in [1,50001]
-\end{equation}
-
-\begin{equation}
-s[b] \ge s[a-1] + c \\
-\end{equation}
+\begin{gather}
+    s[i] \ge s[i-1], i \in [1,50001] \notag \\
+    s[i-1] \ge s[i] - 1, i \in [1,50001] \notag \\
+    s[b] \ge s[a-1] + c \notag
+\end{gather}
 
 由第一个约束条件，建立了 $0→1→...→50001$ 的边，因此 $0$ 号点能走到所有边，令其作为源点。
